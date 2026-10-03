@@ -86,6 +86,7 @@
     "SEOChecks.wordCountCheck.label": "Votre contenu doit être de la plus haute qualité possible, avec des informations pertinentes et uniques. Votre contenu nécessite un minimum de paragraphes, et donc de mots.",
     "SEOChecks.wordCountCheck.words": "Mots:",
     "Modal.seo-component-empty": "Votre composant SEO est vide...",
+    "Modal.seo-component-empty-open-graph": "Les métadonnées Open Graph sont vides...",
     "Tabs.title-settings": "Paramètres de titres",
     "Tabs.social-network": "Réseaux sociaux",
     "Tabs.seo-analyse": "Analyse SEO",
