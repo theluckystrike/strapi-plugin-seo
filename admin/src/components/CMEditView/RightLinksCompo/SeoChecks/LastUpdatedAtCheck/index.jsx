@@ -20,7 +20,7 @@ export const LastUpdatedAtCheck = ({ updatedAt, checks }) => {
 
   let status = {
     message: formatMessage({
-      id: getTrad('SSEOChecks.lastUpdatedAtCheck.default'),
+      id: getTrad('SEOChecks.lastUpdatedAtCheck.default'),
       defaultMessage:
         'This content was modified over a year ago! Search engines love fresh content.',
     }),
