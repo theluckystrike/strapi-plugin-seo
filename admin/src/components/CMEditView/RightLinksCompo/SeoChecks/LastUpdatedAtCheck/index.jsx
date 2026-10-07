@@ -72,7 +72,7 @@ export const LastUpdatedAtCheck = ({ updatedAt, checks }) => {
           <Box padding={4} background="neutral100">
             <Typography variant="omega">
               {formatMessage({
-                id: getTrad('SEOChecks.lastUpdatedAtCheck.last"'),
+                id: getTrad('SEOChecks.lastUpdatedAtCheck.last'),
                 defaultMessage: 'Last updated at:',
               })}{' '}
               <Typography variant="omega" fontWeight="bold">

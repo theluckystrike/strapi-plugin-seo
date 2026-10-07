@@ -20,7 +20,7 @@ const collectTranslationKeys = () => {
   const keys = [];
   for (const file of listSourceFiles(ADMIN_SRC)) {
     const source = fs.readFileSync(file, 'utf8');
-    for (const match of source.matchAll(/getTrad\(\s*(['"])([^'"]+)\1\s*\)/g)) {
+    for (const match of source.matchAll(/getTrad\(\s*(['"])(.+?)\1\s*\)/g)) {
       keys.push({ key: match[2], file: path.relative(ADMIN_SRC, file) });
     }
   }
